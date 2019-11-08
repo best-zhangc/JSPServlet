@@ -17,7 +17,7 @@ public class UpdateCookieServlet extends HttpServlet{
 		response.setContentType("text/html ; charset = UTF-8"); 
 		PrintWriter out = response.getWriter() ;
 		Cookie[] cookies = request.getCookies() ;
-		String city = URLEncoder.encode("上海", "UTF-8") ;
+		String city = URLEncoder.encode("上 海", "UTF-8") ;
 		
 		if (cookies != null) {
 			for (Cookie c : cookies) {
