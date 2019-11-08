@@ -14,7 +14,7 @@ public class Hello2 extends HttpServlet{
 		response.setContentType("text/html ; charset = UTF-8");
 		PrintWriter out = response.getWriter();
 		//System.out.println(8/0);
-		out.print("<h1>能输出中文的：Hello World Servlet</h1>");
+		out.print("<h1>能输出中文的 ：Hello World Servlet</h1>");
 		out.close();
 	}
 }
